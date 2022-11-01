@@ -2,6 +2,7 @@ import {useState} from 'react';
 import StudentList from './components/StudentList'
 import data from './data'
 import { StudentContext } from './contexts/StudentContext';
+import ChangeColor from './components/ChangeColor';
 
 
 
@@ -24,7 +25,7 @@ function App() {
     <div>
       <StudentContext.Provider value={values}>
         <StudentList  />
-
+        <ChangeColor />
       </StudentContext.Provider>
     </div>
   );

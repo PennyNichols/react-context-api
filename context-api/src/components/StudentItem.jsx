@@ -5,7 +5,7 @@ import { StudentContext } from '../contexts/StudentContext';
 
 const StudentItem = ({student}) => {
 
-  const {changeColor} = useContext(StudentContext)
+  const { changeColor} = useContext(StudentContext)
   const {id, name, age, color, email} = student;
 
 
